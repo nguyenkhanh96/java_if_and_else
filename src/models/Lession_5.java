@@ -20,13 +20,13 @@ public class Lession_5 {
 
         if (score <= 25) {
             System.out.println("F");
-        } else if ( 25 < score && score <= 45 ) {
+        } else if (score <= 45 ) {
             System.out.println("E");
-        } else if ( 45 < score && score <= 50 ) {
+        } else if (score <= 50 ) {
             System.out.println("D");
-        } else if ( 50 < score && score <= 60 ) {
+        } else if (score <= 60 ) {
             System.out.println("C");
-        } else if ( 60 < score && score <= 80 ) {
+        } else if (score <= 80 ) {
             System.out.println("B");
         } else if ( 80 < score) {
             System.out.println("A");

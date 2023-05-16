@@ -3,47 +3,47 @@ package models;
 import java.util.Scanner;
 
 public class Lession_6 {
-    public int aPersion;
-    public int bPersion;
-    public int cPersion;
+    public int aPerson;
+    public int bPerson;
+    public int cPerson;
 
     public Lession_6() {
     }
 
-    public Lession_6(int aPersion, int bPersion, int cPersion) {
-        this.aPersion = aPersion;
-        this.bPersion = bPersion;
-        this.cPersion = cPersion;
+    public Lession_6(int aPerson, int bPerson, int cPerson) {
+        this.aPerson = aPerson;
+        this.bPerson = bPerson;
+        this.cPerson = cPerson;
     }
 
     public void input() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Nhập số tuổi của ông A");
-        this.aPersion = sc.nextInt();
+        this.aPerson = sc.nextInt();
 
         System.out.println("Nhập số tuổi của ông B");
-        this.bPersion = sc.nextInt();
+        this.bPerson = sc.nextInt();
 
         System.out.println("Nhập số tuổi của ông C");
-        this.cPersion = sc.nextInt();
+        this.cPerson = sc.nextInt();
 
         // Xác định người lớn tuổi nhất
-        int maxAge = aPersion;
-        if (bPersion > maxAge) {
-            maxAge = bPersion;
+        int maxAge = aPerson;
+        if (bPerson > maxAge) {
+            maxAge = bPerson;
         }
-        if (cPersion > maxAge) {
-            maxAge = cPersion;
+        if (cPerson > maxAge) {
+            maxAge = cPerson;
         }
 
         // Xác định người trẻ nhất
-        int minAge = aPersion;
-        if (bPersion < minAge) {
-            minAge = bPersion;
+        int minAge = aPerson;
+        if (bPerson < minAge) {
+            minAge = bPerson;
         }
-        if (cPersion < minAge) {
-            minAge = cPersion;
+        if (cPerson < minAge) {
+            minAge = cPerson;
         }
 
         System.out.println("Người lớn tuổi nhất là " + maxAge +" tuổi");

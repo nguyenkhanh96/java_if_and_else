@@ -18,10 +18,10 @@ public class Lession_10 {
         System.out.println("Nhập vào 1 số có 4 chữ số");
         this.num = sc.nextInt();
 
-        int digit1 = num % 10;
-        int digit2 = (num / 10) % 10;
-        int digit3 = (num / 100) % 10;
-        int digit4 = (num / 1000) % 10;
+        int digit1 = num % 10; // 4
+        int digit2 = (num / 10) % 10; // 3
+        int digit3 = (num / 100) % 10; // 2
+        int digit4 = (num / 1000) % 10; // 1
 
         int reversedNum = digit1 * 1000 + digit2 * 100 + digit3 * 10 + digit4;
 

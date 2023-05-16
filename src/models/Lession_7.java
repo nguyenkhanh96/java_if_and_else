@@ -21,10 +21,13 @@ public class Lession_7 {
         System.out.println("Nhập vào 1 số number");
         this.num = sc.nextInt();
 
+        int abs;
+
         if (num >= 0) {
-            System.out.println("giá trị tuyệt đối của number là " + num);
+            abs = num;
         } else {
-            System.out.println("Giá trị tuyệt đối của num là " + (-num));
+            abs = -num;
         }
+        System.out.println("Giá trị tuyệt đối của num là " + abs);
     }
 }

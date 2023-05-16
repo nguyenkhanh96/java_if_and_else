@@ -11,7 +11,7 @@ import models.Lession_10;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Lession_10 check = new Lession_10();
+        Lession_5 check = new Lession_5();
 
         check.input();
     }
